@@ -71,12 +71,13 @@ footer {
 @media screen and (max-width: 768px) {
   main {
     width: 100%;
-    margin: 50px auto;
-    display: flex;
+    margin: 50px 5%;
+    display: block;
   }
 
   .flow-box {
     width: 90%;
+    margin-right: 0px;
     margin-bottom: 20px;
     padding: 10px;
     position: relative;
@@ -84,6 +85,7 @@ footer {
   }
 
   .flow-box:last-child {
+    margin-right: 0;
     margin-bottom: 0;
   }
 
